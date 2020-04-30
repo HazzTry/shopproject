@@ -2,6 +2,7 @@
 项目要点
 ========
 
+<<<<<<< HEAD
 * 在mybatis-generator.xml配置文件中在对应生成表类名配置中加入
 
 		enableCountByExample="false"enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false"selectByExampleQueryId="false" 
