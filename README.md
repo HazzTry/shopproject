@@ -1,7 +1,11 @@
 # shopproject
 项目要点
 
-在mybatis-generator.xml配置文件中在对应生成表类名配置中加入 enableCountByExample="false"enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false"selectByExampleQueryId="false" 避免生成不常用方法
+在mybatis-generator.xml配置文件中在对应生成表类名配置中加入
+
+enableCountByExample="false"enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false"selectByExampleQueryId="false"
+
+避免生成不常用方法
 
 前端 ajax 调用接口获取验证码 html/getotp.html，出现跨域请求问题 解决方法：@CrossOrigin(origins = {"*"}, allowCredentials = "true") allowedHeaders 允许前端将 token 放入 header 做 session 共享的跨域请求。 allowCredentials 授信后，需前端也设置 xhfFields 授信才能实现跨域 session 共享。 xhrFields: {withCredentials: true},
 
